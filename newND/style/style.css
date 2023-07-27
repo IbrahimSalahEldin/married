@@ -1,0 +1,10 @@
+.mainSection{
+    margin-top: 110px;
+}
+
+@media only screen and (max-width: 950px) {
+    .mainSection{
+        margin-top: 80px;
+    }
+  }
+  
