@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <!-- Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!--    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">-->
+
+    <link href="style/css/checkbox_radiobutton.css" rel="stylesheet">
+    <link href="style/css/overflow.css" rel="stylesheet">
+    <link href="style/css/select.css" rel="stylesheet">
+    <link href="style/css/style.css" rel="stylesheet">
+    <link href="style/css/table.css" rel="stylesheet">
+    <link href="style/css/underline.css" rel="stylesheet">
+    <link href="style/css/footer.css" rel="stylesheet">
+    <link href="style/css/load_fade_element.css" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/b41802e842.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    
+
+</head>
+<body>
+
+    <link href="style/css/colors.css" rel="stylesheet">
+    <link href="style/css/inputs.css" rel="stylesheet">
+    <link href="style/css/other.css" rel="stylesheet">
+
+<!-- NaveBar -->
+
+ <nav id="nav-bar" class="navbar navbar-expand-lg bg-opacity-50_ bg-secondary bg-danger bg-opacity-50 position-sticky sticky-top p-0 fixed-top">
+    <div class="container-fluid" dir="ltr">
+        <a class="navbar-brand mb-auto" href="/">
+            <img src="assets/logo_white.png" alt="logo" id="logo-web">
+        </a>
+        <button id="list-btn-nav" class="navbar-toggler border-0 shadow-none" type="button" onclick="flip_list()" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+            <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex_ mb-auto bg-primary_" id="navbarcollapse" dir="rtl">
+            <ul class="flex-fill-1_ navbar-nav my-2 ms-auto mb-2 mb-lg-0 text-center fs-5">
+
+            </ul>
+
+            <ul id="list-nav-items" class="navbar-nav mx-auto mt-4 text-center fs-5 overflow-auto">
+                <li class="nav-item mx-lg-2">
+                    <a class="nav-link hover-underline-animation" href="#f">الرئيسيه</a>
+                </li>
+                <li class="nav-item mx-lg-2">
+                    <a class="nav-link hover-underline-animation" href="#packages-marriage">بكج الزاوج</a>
+                </li>
+                <li class="nav-item mx-lg-2">
+                    <a class="nav-link hover-underline-animation" href="#packages-gold">بكج الشبكه</a>
+                </li>
+                <li class="nav-item mx-lg-2">
+                    <a class="nav-link hover-underline-animation" href="#footer">من نحن</a>
+                </li>
+                <li class="nav-item mx-lg-2">
+                    <a class="nav-link hover-underline-animation" href="#videos">الالبوم</a>
+                </li>
+                <li class="nav-item mx-lg-2">
+                    <a class="nav-link hover-underline-animation" href="#contact">تواصل معنا</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav me-auto mb-auto bg-success_">
+
+            </ul>
+        </div>
+    </div>
+ </nav>
+
+    <!-- End NaveBar -->
+
+    <!-- mainSection -->
+    <main class="w-100" style="max-width: 2200px;margin: auto auto" id="f">
+        <!-- firstSection -->
+        <div class="container-fluid w-100 text-center bg-primary py-3" id="about_us">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="assets/images/marriage.jpg" class="w-50 animated_fade animated_top_side" style="max-width: 600px; border-radius: 30px;">
+                </div>
+                <div class="col-lg-7 my-lg-auto mt-5">
+                    <h4 class="text-white title-text animated_fade animated_bottom_side px-3">لكي تبقى ذكرى هذه اللحظات الثمينة حية ومحفورة في ذاكرتنا، يأتي دور مصورين الفيديو المحترفين الذين يسجلون تلك اللحظات الرائعة </h4>
+                    <h4 class="text-white title-text animated_fade animated_top_side px-3">ويجعلونها تبقى دائمًا  .</h4>
+
+                </div>
+            </div>
+        </div>
+        <!-- end firstsection -->
+
+        <!-- second section -->
+        <div class="mt-0 text-center bg-white bg-opacity-25 p-3 mt-0" id="packages-marriage">
+            <div class="position-relative animated_fade animated_top_side">
+                <div class="d-inline-block">
+                    <h2 class="text-center text-dark">باقات الزواج</h2>
+                    <hr class="border border-2 border-danger rounded-pill opacity-50 w-50 mx-auto">
+                </div>
+            </div>
+            <div class="d-flex w-50 mx-auto animated_fade animated_bottom_side">
+                <div class="flex-fill">
+                    <hr class="border border-2 border-danger rounded-pill">
+                </div>
+                <div class="flex-fill-1 mx-3">
+                    <i class="fa-solid fa-hand-holding-heart fa-2x text-primary opacity-75"></i>
+                </div>
+                <div class="flex-fill">
+                    <hr class="border border-2 border-danger rounded-pill">
+                </div>
+            </div>
+            <br>
+            <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-3 px-3 justify-content-center">
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_bottom_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج الكلاسيكي</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">3350 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto"> ألبوم جلد مقاس A4 </h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(40) صورة و لوحة</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">2 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_right_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج الأقتصادي</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">3650 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto"> ألبوم مع البوكس مقاس A4 [ قماش أو مخمل أو جلد ]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(75) صورة مع ميني ألبوم و مجلة و لوحة</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">8 صورة للأهل</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">3 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_right_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج الأساسي</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">4850 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">ألبوم جلد مقاس A4 </h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(40) صورة</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">8 صور للأهل</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">1 فديو مع المونتاج</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">4 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_right_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج المميز</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">5950 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">ألبوم مربع  جلد أو مخمل أو قماش مقاس 60/30</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(50) صورة</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">8 صورة للأهل</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">منيكان</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">1فيديو مع المونتاج [ زفة أو تجهيز ]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">5 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_left_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج المتكامل</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">6850 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">ألبوم مربع مقاس 60/30</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(55) صورة مع لوحة</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">10 صورة للأهل</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">منيكان</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">2 فيديو مع المونتاج [ زفة و تجهيز ]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">5 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_top_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج الشامل</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">7550 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">ألبوم مربع مع البوكس مقاس 30/60 [ قماش أو مخمل أو جلد ]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(75) صورة مع ميني ألبوم و مجلة و لوحة</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">10 صورة للأهل</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">منيكان</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">3 فيديو مع المونتاج [ زفتين و تجهيز]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">6 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_bottom_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج تغطية الزواجات</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">8550 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">البوم مربع مقاس 60/30</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">50 صوره</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">تغطية بالكرين</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">فديو بمونتاج (تصوير القاعة, الضيافة, المطربة زفة الرجال, صالة العشاء)</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">6 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_top_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج هاف دي</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">8950 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">ألبوم مربع مع البوكس مقاس 30/60 [ قماش مخمل جلد ]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(85)  صورة مع ميني ألبوم و مجلة و لوحة</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">20 صورة للأهل في ميني البوم</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">منيكان + الخلفية + تصميم فلتر سناب شات</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">3 فديوهات مع المونتاج [ زفتين وتجهيز أو توثيق أو رقص أو زفة العروس ]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">6 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_right_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-packages px-3 py-4">
+                        <h4 class="text-primary">بكج الفل دي</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">14,000 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex gap-5">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-camera-retro fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">ألبوم كبير مقاس 50 - 30 -78</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(95) صورة مع ميني ألبوم و لوحة مجلة</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">(20) صورة للأهل في ميني البوم</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">عرض تشويقي و إضاءة تتبع</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">منيكان</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">الخلفية و تصميم فلتر لسناب شات</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">5 فديوهات مع المونتاج [ تصوير القاعة و زفتين و التجهيز و توثيق بعض اللحظات ]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">8 ساعات تصوير </h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+        <!-- end second section -->
+
+        <!-- third section -->
+        <div class="mt-0 text-center bg-secondary bg-opacity-10 p-3 mt-0" id="packages-gold">
+            <div class="position-relative animated_fade animated_top_side">
+                <div class="d-inline-block">
+                    <h2 class="text-center text-dark">باقات الشبكة</h2>
+                    <hr class="border border-2 border-danger rounded-pill opacity-50 w-50 mx-auto">
+                </div>
+            </div>
+            <div class="d-flex w-50 mx-auto animated_fade animated_bottom_side">
+                <div class="flex-fill">
+                    <hr class="border border-2 border-danger rounded-pill">
+                </div>
+                <div class="flex-fill-1 mx-3">
+                    <i class="fa-solid fa-ring fa-2x text-primary opacity-75"></i>
+                </div>
+                <div class="flex-fill">
+                    <hr class="border border-2 border-danger rounded-pill">
+                </div>
+            </div>
+            <br>
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-3 px-3 justify-content-center">
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_right_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-gold px-3 py-4">
+                        <h4 class="text-primary">بكج البرونزي (شبكة)</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">2500 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-icons fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">البوم جلد حجم A4</h6>
+                            </div>
+                        </div>
+            
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">35  صورة</h6>
+                            </div>
+                        </div>
+            
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">8 صور للأهل</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">2 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_right_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-gold px-3 py-4">
+                        <h4 class="text-primary">البكج الفضي (شبكه)</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">3500 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-icons fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">البوم جلد حجم A4</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">40 صوره</h6>
+                            </div>
+                        </div>
+            
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">10 صور للأهل</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">فديو توثيق بدون مونتاج</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">3 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 animated_fade animated_bottom_side card-white-shadow rounded-5 bg-white bg-opacity-50 cards-gold px-3 py-4">
+                        <h4 class="text-primary">البكج الذهبي (شبكه)</h4>
+                        <h5 class="text-secondary"></h5>
+                        <div class="position-relative">
+                            <div class="d-inline-block rounded-pill px-5 py-2 bg-dark">
+                                <h5 class="text-white my-auto">4500 ريال</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                            <div class="flex-fill-1 mx-3">
+                                <i class="fa-solid fa-icons fa-2x text-primary opacity-75"></i>
+                            </div>
+                            <div class="flex-fill">
+                                <hr class="border border-2 border-danger rounded-pill">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">البوم جلد او قماش مع البوكس حجم A4</h6>
+                            </div>
+                        </div>
+            
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">75 صوره ميني البوم ومجلة ولوحه</h6>
+                            </div>
+                        </div>
+            
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">ميني البوم للأهل</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">منيكان</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">1 فديو مونتاج [ تلبيس الشبكة ]</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">كل الصور في فلاش ميموري</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex" align="start">
+                            <div class="flex-fill-1 ms-2">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                            </div>
+                            <div class="flex-fill my-auto mb-2">
+                                <h6 class="offer-text-details my-auto">4 ساعات تصوير</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center mt-auto">
+                            <a href="https://wa.me/9660558141673" target="_blank" class="btn btn-lg btn-primary rounded-pill px-4">اشترك الان</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+        <!-- end third section -->
+
+        <!-- fourth section -->
+        <div class="position-relative">
+            <img src="assets/logo_black.png" width="60%" class="position-absolute top-50 start-50 translate-middle opacity-25" style="z-index: -1">
+            <!-- fourth_first -->
+            <div class="mt-0 text-center bg-white bg-opacity-25 mt-0 p-3" id="extra_service">
+                <br>
+                <div class="position-relative">
+                    <div class="d-inline-block">
+                        <h2 class="text-center text-primary">الخدمات الإضافية</h2>
+                        <hr class="border border-2 border-danger rounded-pill opacity-50 w-50 mx-auto">
+                    </div>
+                </div>
+
+                <div class="d-flex w-50 mx-auto">
+                    <div class="flex-fill">
+                        <hr class="border border-2 border-danger rounded-pill">
+                    </div>
+                    <div class="flex-fill-1 mx-3">
+                        <i class="fa-solid fa-star fa-2x text-warning opacity-100"></i>
+                    </div>
+                    <div class="flex-fill">
+                        <hr class="border border-2 border-danger rounded-pill">
+                    </div>
+                </div>
+                <br><br>
+                <div class="overflow-auto overflow-y-hidden animated_fade animated_bottom_side">
+                    <table class="table table-striped table-danger table-extra-service table-bordered table-responsive-lg w10 mx-auto animated_fade animated_top_side">
+                        <thead class="bg-dark">
+                        <tr class="table-warning border-top-0">
+                            <th>الخدمات</th>
+                            <th>الأسعار</th>
+                        </tr>
+                        </thead>
+                        <tbody class="table-secondary" align="start">
+                        <tr>
+                            <td>المنيكان</td>
+                            <td class="text-danger">
+                                <span>200 ريال</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>الخلفية</td>
+                            <td class="text-danger">
+                                <span>300 ريال</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>لوحة</td>
+                            <td class="text-danger">
+                                <span>250 ريال</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>كشاف المتبعة مع العاملة</td>
+                            <td class="text-danger">
+                                <span>600 ريال</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>إضافة فديو مونتاج</td>
+                            <td class="text-danger">
+                                <span>1500 ريال</span>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td>إضافة فديو توثيق</td>
+                            <td class="text-danger">
+                                <span>800 ريال</span>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td>إضافة صفحة بالالبوم</td>
+                            <td class="text-danger">
+                                <span>200 ريال</span>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td>تعديل إضافي فوتوشوب للصوره</td>
+                            <td class="text-danger">
+                                <span>50 ريال</span>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td>اضافة الالبوم مقاس مقاس e4</td>
+                            <td class="text-danger">
+                                <span>850 ريال</span>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td>إضافة الالبوم مربع مقاس 60/30</td>
+                            <td class="text-danger">
+                                <span>1350 ريال</span>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td>إضافة ساعة تصوير</td>
+                            <td class="text-danger">
+                                <span>500 ريال</span>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td>تغطية الحفل كامل بالكرين</td>
+                            <td class="text-danger">
+                                <span>7500 ريال</span>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom-0">
+                            <td>تغطية الزواج بتصوير الجوال</td>
+                            <td class="text-danger">
+                                <span>1500 ريال</span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- end fourth_first -->
+
+            <!-- fourth_second -->
+
+            <div class="mt-0 text-center bg-white bg-opacity-25 mt-0 p-3" id="notes">
+                <br>
+                <div class="position-relative">
+                    <div class="d-inline-block">
+                        <h2 class="text-center text-danger">ملاحظات مهمة للعميل</h2>
+                        <hr class="border border-2 border-danger rounded-pill opacity-50 w-50 mx-auto">
+                    </div>
+                </div>
+                <div class="d-flex w-50 mx-auto">
+                    <div class="flex-fill">
+                        <hr class="border border-2 border-danger rounded-pill">
+                    </div>
+                    <div class="flex-fill-1 mx-3">
+                        <i class="fa-solid fa-file-invoice fa-2x text-danger opacity-100"></i>
+                    </div>
+                    <div class="flex-fill">
+                        <hr class="border border-2 border-danger rounded-pill">
+                    </div>
+                </div>
+                <br>
+                <div class="container-ul">
+                    <ul class="myUL text-center list-unstyled animated_fade animated_bottom_side">
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• اسعار البكجات ثابته ارجو عدم الإحراج ،إلا في حال العروض فقط</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• تلتزم المصورة بتصوير الباقة المطلوبة وتمديد الوقت في حال تأخر المصوره في البداية تحت أي ظرف ..</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• يتم إحتساب التصوير بساعات متواصله .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• سيتم حذف الصور بعد 6 أشهر من تاريخ المناسبة .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• عند الحجز يجب تأكيد التاريخ بالميلادي ومكان التصوير واسم القاعه ولايسمح بتغيير التاريخ الا اذا كان التاريخ الجديد  متاح  .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• لايسمح بتغيير الباقة المطلوبه إلا في حال إضافة فيديو او ساعات تصوير اوتغيير حجم الألبوم  .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• لا يختلف السعر عند الغاء اي من تفاصيل البكج .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• إحضار فلاش ميموري ليلة الزواج ليتم نسخ الصور لجميع البكجات.</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• لايحق للعميلة تحديد جنسية معينه او عدد المصورات او تحديد ماتصوره كل مصوره .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• العربون لايسترد تحت اي ظرف ..</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• تحويل العربون (300) وارسال الايصال لتأكيد الحجز ..</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• تحويل المبلغ المتبقي كامل قبل التصوير بيوم او اكثر ، او يسلم نقداً في نفس اليوم قبل البدء في التصوير .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• تعديل الصور المختارة من قبل العميلة بالفوتوشوب يكون تصفية البشرة فقط ولاتوجد اي تعديلات اخرى .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• طباعة الألبوم  تستغرق من 4 الى 6 اشهر .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• في حال طلب تعديلات بالفوتوشوب يكون بمبلغ إضافي .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">•في حال تأخر العميلة باختيار الصور سيؤدي ذلك إلى تأخير طباعة الالبوم ، وفي حال طلب العميلة من المصوره إختيار الصور لايحق للعميلة تغيير الصور ولإعادة طباعة الالبوم الا بمبلغ إضافي .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• للعميلة تغيير الصور ولاإعادة طباعة الألبوم  الإ بمبلغ إضافي ..</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• بعد إختيار الصور لايحق للعميلة التغيير والإضافه واذا تم ذالك يكون بمبلغ إضافي ..</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• يتم تسليم الفيديو حسب المتفق عليه أما بمونتاج او بدون ولايقبل التغيير .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-50 sub-title-text">• لايحق للعميلة او اي احد من طرفها الإساءه لفريق العمل ، واذا حصل ذالك يتوقف التصوير ويغادر طاقم العمل الموقع مباشره .</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• الصورالتي تنزل في وسائل التواصل بموافقه العميله لايتم حذفها .</span>
+                            </h5>
+                        </li>
+                
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• في حال تعرض المصورة لضروف طارئه تمنعها من الحضور يحق للعميله استرداد العربون او طلب مصوره اخرى في حال توفرها.</span>
+                            </h5>
+                        </li>
+                
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• عند الانتهاء من طباعة الالبوم سوف يتم التواصل مع العميلة لاستلامه.</span>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 class="text-dark">
+                                <i class="fa-solid fa-circle-info text-primary opacity-75"></i>
+                                <span class="opacity-75 sub-title-text">• يوجد لدينا خدمة توصيل الالبوم لموقع العميلةب 100 ريال .</span>
+                            </h5>
+                        </li>
+                
+                    </ul>
+                </div>
+            </div>
+
+            <!-- end fourth_second -->
+
+
+             <!-- fourth_Third -->
+            <div class="mt-0 text-center bg-white bg-opacity-25 mt-0 p-3" id="videos">
+                <br>
+                <div class="position-relative animated_fade animated_bottom_side">
+                    <div class="d-inline-block">
+                        <h2 class="text-center text-danger">فيديوهات تهمك</h2>
+                        <hr class="border border-2 border-danger rounded-pill opacity-50 w-50 mx-auto">
+                    </div>
+                </div>
+                <div class="d-flex w-50 mx-auto animated_fade animated_top_side">
+                    <div class="flex-fill">
+                        <hr class="border border-2 border-danger rounded-pill">
+                    </div>
+                    <div class="flex-fill-1 mx-3">
+                        <i class="fa-brands fa-youtube fa-2x text-danger opacity-100"></i>
+                    </div>
+                    <div class="flex-fill">
+                        <hr class="border border-2 border-danger rounded-pill">
+                    </div>
+                </div>
+                <br><br>
+                <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-1 g-3 px-4 justify-content-center">
+                    <div class="col position-relative container-image-video animated_fade animated_bottom_side" onclick="document.getElementById('modal-card-1').click()">
+                        <img src="assets/images/images.png" width="100%" class="figure-img img-fluid rounded-4 opacity-75" alt="...">
+                        <h6 class="position-absolute bottom-0 start-50 translate-middle text-white w-100"></h6>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <div type="button" class="btn btn-outline-primary p-5 rounded-circle position-relative">
+                                <i class="fa-solid fa-play fa-3x position-absolute top-50 start-50 translate-middle"></i>
+                            </div>
+                        </div>
+                        <button type="button" class="opacity-0 position-absolute top-50 start-50" id="modal-card-1" data-bs-toggle="modal" data-bs-target="#exampleformModal" data-bs-whatever="https://www.youtube.com/embed/f9iSyBWsj40"></button>
+                    </div>
+                    <div class="col position-relative container-image-video animated_fade animated_bottom_side" onclick="document.getElementById('modal-card-3').click()">
+                        <img src="assets/images/images.png" width="100%" class="figure-img img-fluid rounded-4 opacity-75" alt="...">
+                        <h6 class="position-absolute bottom-0 start-50 translate-middle text-white w-100"></h6>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <div type="button" class="btn btn-outline-primary p-5 rounded-circle position-relative">
+                                <i class="fa-solid fa-play fa-3x position-absolute top-50 start-50 translate-middle"></i>
+                            </div>
+                        </div>
+                        <button type="button" class="opacity-0 position-absolute top-50 start-50" id="modal-card-3" data-bs-toggle="modal" data-bs-target="#exampleformModal" data-bs-whatever="https://www.youtube.com/embed/m5XCRgaEFQo"></button>
+                    </div>
+                    <div class="col position-relative container-image-video animated_fade animated_top_side" onclick="document.getElementById('modal-card-4').click()">
+                        <img src="assets/images/images.png" width="100%" class="figure-img img-fluid rounded-4 opacity-75" alt="...">
+                        <h6 class="position-absolute bottom-0 start-50 translate-middle text-white w-100"></h6>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <div type="button" class="btn btn-outline-primary p-5 rounded-circle position-relative">
+                                <i class="fa-solid fa-play fa-3x position-absolute top-50 start-50 translate-middle"></i>
+                            </div>
+                        </div>
+                        <button type="button" class="opacity-0 position-absolute top-50 start-50" id="modal-card-4" data-bs-toggle="modal" data-bs-target="#exampleformModal" data-bs-whatever="https://www.youtube.com/embed/1EKk5d-Bs84"></button>
+                    </div>
+                    <div class="col position-relative container-image-video animated_fade animated_bottom_side" onclick="document.getElementById('modal-card-5').click()">
+                        <img src="assets/images/images.png" width="100%" class="figure-img img-fluid rounded-4 opacity-75" alt="...">
+                        <h6 class="position-absolute bottom-0 start-50 translate-middle text-white w-100"> </h6>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <div type="button" class="btn btn-outline-primary p-5 rounded-circle position-relative">
+                                <i class="fa-solid fa-play fa-3x position-absolute top-50 start-50 translate-middle"></i>
+                            </div>
+                        </div>
+                        <button type="button" class="opacity-0 position-absolute top-50 start-50" id="modal-card-5" data-bs-toggle="modal" data-bs-target="#exampleformModal" data-bs-whatever="https://www.youtube.com/embed/66SidQvxJCI"></button>
+                    </div>
+                </div>
+                <div id="modals-videos">
+                    <div class="modal fade mt-5" id="exampleformModal" tabindex="-1" aria-labelledby="exampleformModallabel" style="display: none" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content bg-transparent border-0">
+                                <div class="modal-body">
+                                    <iframe width="100%" height="290" src="https://www.youtube.com/embed/Six2pYaCsyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- end fourth_Third -->
+
+        </div>
+        <!-- end fourth section -->
+
+        <!-- fifth section -->
+        <div class="mt-0 text-center bg-secondary bg-opacity-10 p-3" id="payment">
+            <br>
+            <div class="position-relative">
+                <div class="d-inline-block">
+                    <h2 class="text-center text-danger">البنوك وبيانات الدفع</h2>
+                    <hr class="border border-2 border-danger rounded-pill opacity-50 w-50 mx-auto">
+                </div>
+            </div>
+            <div class="d-flex w-50 mx-auto">
+                <div class="flex-fill">
+                    <hr class="border border-2 border-danger rounded-pill">
+                </div>
+                <div class="flex-fill-1 mx-3">
+                    <i class="fa-solid fa-building-columns fa-2x text-danger opacity-100"></i>
+                </div>
+                <div class="flex-fill">
+                    <hr class="border border-2 border-danger rounded-pill">
+                </div>
+            </div>
+            <br>
+            <div class="row row-cols-xl-5 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 justify-content-center g-4">
+                <div class="col">
+                  <div type="button" class="card bg-white bg-opacity-75 card-white-shadow p-2 rounded-5" data-bs-toggle="collapse"       data-bs-target="#collapse-card-1">
+                    <div class="d-flex my-auto">
+                      <div class="flex-fill-1">
+                        <img src="assets/banks/raghe.png" class="rounded" width="80">
+                      </div>
+                      <div class="flex-fill my-auto me-3" align="start">
+                        <h4>بنك الراجحي</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="collapse" id="collapse-card-1" align="start">
+                    <div class="card card-collapse-payment bg-secondary bg-opacity-50 text-light p-2 rounded-bottom-5 rounded-top-2">
+                      <h5>بنك الراجحي</h5>
+                      <h5>الأسم: </h5>
+                      <h6 class="opacity-75">ندى زيد تميمي</h6>
+                      <h5>رقم الحساب: </h5>
+                      <h6 class="opacity-75">355608010554187</h6>
+                      <h5>رقم الايبان: </h5>
+                      <h6 class="opacity-75">SA0780000355608010554187</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div type="button" class="card bg-white bg-opacity-75 card-white-shadow p-2 rounded-5" data-bs-toggle="collapse" data-bs-target="#collapse-card-2">
+                    <div class="d-flex my-auto">
+                      <div class="flex-fill-1">
+                        <img src="assets/banks/ahly.png" class="rounded" width="80">
+                      </div>
+                      <div class="flex-fill my-auto me-3" align="start">
+                        <h4>بنك الاهلي</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="collapse" id="collapse-card-2" align="start">
+                    <div class="card card-collapse-payment bg-secondary bg-opacity-50 text-light p-2 rounded-bottom-5 rounded-top-3">
+                      <h5>بنك الاهلي</h5>
+                      <h5>الأسم: </h5>
+                      <h6 class="opacity-75">ندى زيد تميمي</h6>
+                      <h5>رقم الحساب: </h5>
+                      <h6 class="opacity-75">21058746000108</h6>
+                      <h5>رقم الايبان: </h5>
+                      <h6 class="opacity-75">SA5810000021058746000108</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div type="button" class="card bg-white bg-opacity-75 card-white-shadow p-2 rounded-5" data-bs-toggle="collapse" data-bs-target="#collapse-card-3">
+                    <div class="d-flex my-auto">
+                      <div class="flex-fill-1">
+                        <img src="assets/banks/enmaa.png" class="rounded" width="80">
+                      </div>
+                      <div class="flex-fill my-auto me-3" align="start">
+                        <h4>بنك الإنماء</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="collapse" id="collapse-card-3" align="start">
+                    <div class="card card-collapse-payment bg-secondary bg-opacity-50 text-light p-2 rounded-bottom-5 rounded-top-2">
+                      <h5>بنك الإنماء</h5>
+                      <h5>الأسم: </h5>
+                      <h6 class="opacity-75">ندى زيد تميمي</h6>
+                      <h5>رقم الحساب: </h5>
+                      <h6 class="opacity-75">00001712412</h6>
+                      <h5>رقم الايبان: </h5>
+                      <h6 class="opacity-75">SA9605000068202289728000</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div type="button" class="card bg-white bg-opacity-75 card-white-shadow p-2 rounded-5" data-bs-toggle="collapse" data-bs-target="#collapse-card-4">
+                    <div class="d-flex my-auto">
+                      <div class="flex-fill-1">
+                        <img src="assets/banks/adv.png" class="rounded" width="80">
+                      </div>
+                      <div class="flex-fill my-auto me-3" align="start">
+                        <h4>بنك الإستثمار</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="collapse" id="collapse-card-4" align="start">
+                    <div class="card card-collapse-payment bg-secondary bg-opacity-50 text-light p-2 rounded-bottom-5 rounded-top-2">
+                      <h5>بنك الإستثمار</h5>
+                      <h5>الأسم: </h5>
+                      <h6 class="opacity-75">ندى زيد تميمي</h6>
+                      <h5>رقم الحساب: </h5>
+                      <h6 class="opacity-75">0129715466001</h6>
+                      <h5>رقم الايبان: </h5>
+                      <h6 class="opacity-75">SA8065000000129715466001</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div type="button" class="card bg-white bg-opacity-75 card-white-shadow p-2 rounded-5" data-bs-toggle="collapse" data-bs-target="#collapse-card-5">
+                    <div class="d-flex my-auto">
+                      <div class="flex-fill-1">
+                        <img src="assets/banks/sabb.png" class="rounded" width="80">
+                      </div>
+                      <div class="flex-fill my-auto me-3" align="start">
+                        <h4>بنك ساب</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="collapse" id="collapse-card-5" align="start">
+                    <div class="card card-collapse-payment bg-secondary bg-opacity-50 text-light p-2 rounded-bottom-5 rounded-top-2">
+                      <h5>بنك ساب</h5>
+                      <h5>الأسم: </h5>
+                      <h6 class="opacity-75">ندى زيد تميمي</h6>
+                      <h5>رقم الحساب: </h5>
+                      <h6 class="opacity-75">616012159001</h6>
+                      <h5>رقم الايبان: </h5>
+                      <h6 class="opacity-75">SA251245554544898489494984</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <br><br>
+        </div>
+        <!-- end fifth section -->
+    </main>
+    <!-- EndfirstSection -->
+
+    <!-- footer -->
+
+    <div class="mt-0 text-center bg-secondary bg-opacity-10 p-0" id="contact">
+        <div class="footer-clean rounded-top-5" id="footer">
+            <footer>
+                <div class="container-lg">
+                    <div class="row row-cols-xl-3 row-cols-lg-2 row-cols-md-2 row-cols-1 justify-content-center">
+                        <div class="col item">
+                            <div class="d-flex mx-auto">
+                                <div class="flex-fill">
+                                    <hr class="border border-2 border-dark rounded-pill">
+                                </div>
+                                <div class="flex-fill-1 mx-3">
+                                    <h3>من نحن؟</h3>
+                                </div>
+                                <div class="flex-fill">
+                                    <hr class="border border-2 border-dark  rounded-pill">
+                                </div>
+                            </div>
+                            <ul class="mt-2">
+                                <li>
+                                    <h6 class="text-secondary opacity-75 mid-title-text">المصوره  ندى  التميمي</h6>
+                                </li>
+                                <li>
+                                    <h6 class="text-secondary opacity-75 mid-title-text">تغطيه الزواجات و تفاصيلها على سنابي</h6>
+                                </li>
+                                <li class="mb-2 mt-4">
+                                    <div class="d-flex text-center justify-content-center">
+                                        <div class="flex-fill-1 ms-2">
+                                            <i class="fa-solid fa-location-dot text-secondary"></i>
+                                        </div>
+                                        <div class="flex-fill-1">
+                                            <span class="text-secondary">الرياض ، الخرج ، الدلم ، حوطة بني تميم ..</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col item">
+                            <div class="d-flex mx-auto">
+                                <div class="flex-fill">
+                                    <hr class="border border-2 border-dark rounded-pill">
+                                </div>
+                                <div class="flex-fill-1 mx-3">
+                                    <h3>وسائل التواصل</h3>
+                                </div>
+                                <div class="flex-fill">
+                                    <hr class="border border-2 border-dark  rounded-pill">
+                                </div>
+                            </div>
+                            <ul class="list-group list-group-horizontal justify-content-center gap-3">
+                                
+                                <li>
+                                    <a href="https://www.instagram.com/i_nada1987/" target="_blank">
+                                        <i class="fa-brands fa-instagram fa-3x text-danger"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.snapchat.com/add/i_nada1987?sender_web_id=802438d0-b63b-4fbb-90e6-a47daf75f9eb&device_type=desktop&is_copy_url=true" target="_blank">
+                                        <i class="fa-brands fa-square-snapchat fa-3x" style="color: #d0b635;"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/9660558141673" target="_blank">
+                                        <i class="fa-brands fa-whatsapp fa-3x text-success"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/i_nada1987" target="_blank">
+                                        <i class="fa-brands fa-twitter fa-3x opacity-75" style="color: #0c63e4"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="col w-100s item">
+                            <div class="d-flex mx-auto w-100">
+                                <div class="flex-fill">
+                                    <hr class="border border-2 border-dark rounded-pill">
+                                </div>
+                                <div class="flex-fill-1 mx-3">
+                                    <h3>البنود والسياسات</h3>
+                                </div>
+                                <div class="flex-fill">
+                                    <hr class="border border-2 border-dark  rounded-pill">
+                                </div>
+                            </div>
+                            <ul class="mt-2" align="start">
+                                <li>
+                                    <a href="#notes" class="text-secondary">ملاحظات مهمة للعميل</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div align="center" class="mb-0">
+                        <br><br>
+                        <p class="copyright opacity-100">Copyright 2023 © NadaAltamimi </p>
+                    </div>
+                </div>
+            </footer>            
+        </div>
+    </div>
+    <!-- end footer -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="style/js/modal.js"></script>
+    <script src="style/js/LiveValidate.js"></script>
+    <script src="style/js/loading_button.js"></script>
+    <script src="style/js/observerCallback.js"></script>
+    <script src="style/js/SetRequiredInputs.js"></script>
+    <script src="style/js/submit_btn.js"></script>
+    <script src="style/js/toast_pop-up.js"></script>
+    <script src="style/js/tooltips.js"></script>
+    <script src="style/js/validation.js"></script>
+    <script src="style/js/RadioButtonAdult.js"></script>
+    <script src="style/js/nav-list-icon.js"></script>
+    <script>RequiredInputs(0);</script>
+
+
+
+</body>
+</html>

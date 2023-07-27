@@ -1,0 +1,8 @@
+select[type=select]{
+    border: solid 1px #dc3545;
+    height: 150px;
+}
+select[type=select]:focus{
+    box-shadow: 0 0 7px 1px #dc3545;
+    border: solid 1px #dc3545;
+}

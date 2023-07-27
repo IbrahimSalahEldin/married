@@ -1,0 +1,19 @@
+thead{
+    border: solid 1px transparent;
+}
+thead th:nth-child(1){
+    border-radius: 0 30px 0 0;
+    border: none;
+}
+thead th:nth-last-child(1){
+    border: none;
+    border-radius: 30px 0 0 0;
+}
+tbody tr:nth-last-child(1) td:nth-child(1){
+    border-radius: 0 0 30px 0;
+    border: none;
+}
+tbody tr:nth-last-child(1) td:nth-last-child(1){
+    border-radius: 0 0 0 30px;
+    border: none;
+}

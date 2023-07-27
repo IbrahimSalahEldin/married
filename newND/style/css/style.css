@@ -1,0 +1,183 @@
+@font-face { font-family: DG-Shamael-Black; src: url(../fonts/DGShamael-Black.ttf); }
+body {
+    background: linear-gradient(-45deg, #f1f1f1, #eaeaea);
+    height: 100vh;
+    /*overflow: hidden;*/
+    /*overflow-x: hidden;*/
+}
+html {
+    scroll-behavior: smooth;
+}
+html, body{
+    /*max-width: 100%;*/
+    /*overflow-x: hidden;*/
+}
+h1, h2, h3, h4, h5, h6, a, span, input, textarea,select, select option, .btn, label, .alert, th{
+    font-family: 'DG-Shamael-Black' !important;
+}
+a:not(.hover-underline-animation, .btn){
+    color: rgba(255,36,100,0.71) !important;
+    transition: width 500ms linear, height 500ms linear;
+    transition: all 200ms linear;
+}
+a:not(.hover-underline-animation, .btn):hover{
+    opacity: 85%;
+    color: rgba(255,36,100,0.71) !important;
+}
+.bg-navbar{
+    background: rgba(255, 144, 144, 0.5);
+}
+.navbar-toggler{
+    transition: width 500ms linear, height 500ms linear;
+    transition: all 200ms linear;
+}
+.table-overflow{
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.card-auth{
+    max-width: 50%;
+}
+.navbar{
+    backdrop-filter: blur(5px);
+}
+div.container-ul {
+    text-align: center;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: right;
+}
+.container-image-video{
+    width: 300px
+}
+.container-image-video:hover{
+    cursor: pointer;
+}
+.container-image-video:hover div .btn-outline-primary{
+    background: #dc3545;
+    color: white;
+    border: #dc3545;
+    box-shadow: 1px 1px 5px #dc3545;
+}
+.cards-packages{
+    max-width: 400px;
+    margin: auto auto;
+}
+.cards-gold{
+    max-width: 500px;
+    margin: auto auto;
+}
+.table-extra-service{
+    margin: auto auto;
+}
+#payment .row .col .card:not(.card-collapse-payment){
+    height: 110px;
+}
+.card-white-gold-shadow{
+    /*width: 999px;*/
+}
+.cards-gold{
+    width: 550px;
+    max-width: 100%;
+    margin: auto auto;
+}
+.cards-gold:hover{
+    width: 600px;
+}
+#logo-web{
+    height: 100px;
+}
+@media (max-width: 1400px){
+    #list-nav-items{
+        /*width: 800px;*/
+        max-width: 100%;
+    }
+}
+@media (min-width: 1120px){
+    #list-nav-items{
+        /*width: 800px;*/
+        max-width: 100%;
+    }
+    .table-extra-service{
+        width: 500px;
+        margin: auto auto;
+    }
+}
+@media (max-width: 1200px){
+    .mid-title-text{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1120px){
+    .sub-title-text{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1000px){
+    .card-auth{
+        max-width: 100%;
+    }
+    #list-nav-items{
+        width: auto;
+    }
+    .mid-title-text{
+        font-size: 12px;
+    }
+    .title-text{
+        font-size: 16px;
+    }
+}
+@media (min-width: 770px) and (max-width: 1200px){
+    footer .container-lg .row .col:nth-last-child(1){
+        width: 100%;
+    }
+}
+@media (min-width: 630px) and (max-width: 750px){
+    .mid-title-text{
+        font-size: 14px;
+    }
+}
+@media (max-width: 950px){
+    .sub-title-text{
+        font-size: 14px;
+    }
+    #logo-web{
+        height: 70px;
+    }
+}
+@media (max-width: 850px){
+    .table-overflow{
+        overflow-x: auto;
+    }
+}
+@media (max-width: 700px){
+    .title-text{
+        /*font-size: 14px;*/
+    }
+    .form-check-label{
+        font-size: 13px;
+    }
+    .title-text{
+        /*font-size: 10px;*/
+    }
+}
+@media (max-width: 650px){
+    .sub-title-text{
+        font-size: 12px;
+    }
+    .offer-text-details{
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px){
+    .table-extra-service{
+        width: 450px;
+        margin: auto auto;
+    }
+    .form-check-label{
+        font-size: 9.4px;
+    }
+}

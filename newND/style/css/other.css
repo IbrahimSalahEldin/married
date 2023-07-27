@@ -1,0 +1,8 @@
+.card-white-shadow{
+    box-shadow: 3px 5px #888888;
+    transition: width 500ms linear, height 500ms linear;
+    transition: all 200ms linear;
+}
+.card-white-shadow:hover{
+    box-shadow: 3px 5px 20px #888888;
+}
