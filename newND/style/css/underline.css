@@ -4,7 +4,7 @@
     border-radius: 100px;
 }
 .hover-underline-animation {
-    color: white;
+    color: rgb(99, 99, 99);
     display: inline-block;
     position: relative;
     transition: width 500ms linear, height 500ms linear;
@@ -20,7 +20,7 @@
     bottom: 0;
     left: 0;
     border-radius: 100px;
-    background-color: #ab365a;
+    background-color: #587547;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -30,5 +30,5 @@
     transform-origin: bottom left;
 }
 .hover-underline-animation:hover {
-    color: #362d30;
+    color: #587547;
 }

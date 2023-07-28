@@ -6,16 +6,16 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #e0d0d0;
+    background: #fff;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(91, 24, 29);
+    background: #587547;
     border-radius: 40px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(91, 24, 29);
+    background: #587547;
 }

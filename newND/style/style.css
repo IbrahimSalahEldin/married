@@ -1,3 +1,14 @@
+.navbar{
+    background-color: white;
+   
+}
+.nav-item{
+    color: black !important;
+}
+
+
+
+
 .mainSection{
     margin-top: 110px;
 }
